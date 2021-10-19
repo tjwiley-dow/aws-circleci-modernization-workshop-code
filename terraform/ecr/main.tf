@@ -1,6 +1,6 @@
 terraform {
   backend "remote" {
-    organization = "tjwileydow" # Enter the Terraform Cloud Organization here
+    organization = "devops-workshop" # Enter the Terraform Cloud Organization here
 
     workspaces {
       name = "ecr-aws-circleci"
